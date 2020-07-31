@@ -21,12 +21,6 @@
     <string name="position">Position</string>
     <string name="select_an_avatar">Select an Avatar</string>
     <string name="android_trivia">Android Trivia</string>
-
-    <string name="rules_text">Facebook : Jane Jane</string>
-    <string name="rules_text1">Line : love.jane_1 </string>
-    <string name="rules_text4">Tel : 0981177358</string>
-    <string name="rules_text3">IG : Kornkamon.12</string>
-    <string name="rules_text5">Email : K000k.pa@gmail.com</string>
     <string name="rules">Contact me</string>
     <string name="about">About me</string>
     <string name="trivia_hint">Trivia Hint</string>
