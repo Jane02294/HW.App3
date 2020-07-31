@@ -20,7 +20,7 @@
     android:id="@+id/navHeader"
     android:layout_width="match_parent"
     android:layout_height="192dp"
-    android:background="@android:color/holo_blue_bright"
+    android:background="#ADFBE8"
     android:padding="16dp"
     android:theme="@style/ThemeOverlay.AppCompat.Dark">
 
@@ -28,7 +28,7 @@
         android:id="@+id/imageView3"
         android:layout_width="489dp"
         android:layout_height="311dp"
-        android:background="#00E5FF"
+        android:background="#ADFBE8"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

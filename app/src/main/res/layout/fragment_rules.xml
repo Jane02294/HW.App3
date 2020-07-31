@@ -79,7 +79,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="60dp"
             android:layout_marginTop="20dp"
-            android:text="Gmail : K000k.pa@gmail.com"
+            android:text="Email : K000k.pa@gmail.com"
             android:textColor="#00000C"
             android:textSize="20sp"
             app:layout_constraintStart_toStartOf="parent"
@@ -96,6 +96,6 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView15"
-            app:layout_constraintVertical_bias="0.076" />
+            app:layout_constraintVertical_bias="0.065" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
