@@ -27,12 +27,50 @@
         android:layout_height="wrap_content"
         android:background="#ADFBE8">
 
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="78dp"
+            android:layout_height="72dp"
+            android:layout_marginBottom="68dp"
+            android:src="@android:drawable/btn_star_big_on"
+            app:layout_constraintBottom_toTopOf="@+id/textView3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="59dp"
+            android:layout_height="65dp"
+            android:layout_marginBottom="40dp"
+            android:src="@android:drawable/btn_star_big_on"
+            app:layout_constraintBottom_toTopOf="@+id/textView3"
+            app:layout_constraintEnd_toStartOf="@+id/imageView6"
+            app:layout_constraintHorizontal_bias="0.728"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="62dp"
+            android:layout_height="62dp"
+            android:layout_marginBottom="40dp"
+            android:src="@android:drawable/btn_star_big_on"
+            app:layout_constraintBottom_toTopOf="@+id/textView3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.276"
+            app:layout_constraintStart_toEndOf="@+id/imageView6"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.944" />
+
         <TextView
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="20dp"
-            android:layout_marginTop="168dp"
+            android:layout_marginTop="156dp"
             android:text="ชื่อ : นางสาวกรกมล ปัญญายงค์"
             android:textColor="#000000"
             android:textSize="20sp"
