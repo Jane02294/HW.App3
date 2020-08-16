@@ -23,7 +23,8 @@
 
     <fragment
         android:id="@+id/Addcontect"
-        android:name="com.example.android.navigation.AboutFragment"
-        android:label="Add contact"
-        tools:layout="@layout/fragment_contact" />
+        android:name="com.example.android.navigation.ContactFragment"
+        android:label="Add contact" />
+
+
 </navigation>
