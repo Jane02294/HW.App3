@@ -15,14 +15,12 @@
   -->
 
 <resources>
-    <string name="app_name">Android Trivia</string>
-    <string name="game_over">Game Over</string>
-    <string name="try_again">Try Again?</string>
     <string name="position">Position</string>
     <string name="select_an_avatar">Select an Avatar</string>
     <string name="android_trivia">Android Trivia</string>
     <string name="rules">Contact me</string>
     <string name="about">About me</string>
+    <string name="addcontact">Add contact</string>
     <string name="trivia_hint">Trivia Hint</string>
     <string name="title_android_trivia_question">Android Trivia (%1$d/%2$d)</string>
     <string name="title_about_trivia">About Trivia</string>
@@ -34,7 +32,6 @@
     <string name="sharing_not_available">Sharing Not Available</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="Addcontact">Addcontact</string>
 
 
 </resources>
