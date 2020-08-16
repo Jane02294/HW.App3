@@ -30,27 +30,32 @@
 
 
         <EditText
-            android:id="@+id/editTextTextPersonName"
+            android:id="@+id/Name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="52dp"
             android:layout_marginTop="16dp"
             android:ems="10"
-            android:inputType="textPersonName"
-            android:text="Name"
+            android:freezesText="true"
+            android:inputType="textPersonName|text"
+            android:textAlignment="gravity"
+            android:textDirection="firstStrongRtl"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <Button
             android:id="@+id/button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="12dp"
+            android:layout_width="84dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="24dp"
+            android:background="#1DE9B6"
             android:text="add"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.297"
-            app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName"
+            app:layout_constraintHorizontal_bias="0.323"
+            app:layout_constraintStart_toEndOf="@+id/Name"
             app:layout_constraintTop_toTopOf="parent"
             tools:ignore="MissingConstraints" />
+
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
